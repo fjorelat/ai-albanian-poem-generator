@@ -4,27 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <title>AI Albanian Poem Generator</title>
+    <title>AI Greek Poem Generator</title>
   </head>
   <body>
     <div class="container">
-      <header><h1>AI Albanian poem generator!</h1></header>
+      <header><h1>AI Greek poem generator!</h1></header>
       <main>
         <form id="poem-form">
           <input
             type="text"
-            placeholder="Enter the topic of the Albanian poem..."
+            placeholder="Enter the topic of the Greek poem..."
             autofocus
             required
             autocomplete="off"
             class="poem-input"
+            id="poem-input"
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="poem" id="poem">
-          
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
