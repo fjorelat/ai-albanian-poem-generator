@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Albanian Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header><h1>AI Albanian poem generator!</h1></header>
       <main>
-        <form>
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter the topic of the Albanian poem..."
@@ -21,10 +22,8 @@
           />
           <input type="submit" class="submit" />
         </form>
-        <div class="poem">
-          Profound is solitude in two glasses of wine.
-          <br />
-          A ruddy horse and a white horse.
+        <div class="poem" id="poem">
+          
         </div>
       </main>
 
