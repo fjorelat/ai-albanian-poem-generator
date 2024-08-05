@@ -12,19 +12,22 @@
     <div class="container">
       <header><h1>AI Greek poem generator!</h1></header>
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Greek poem..."
-            autofocus
-            required
-            autocomplete="off"
-            class="poem-input"
-            id="poem-input"
-          />
-          <input type="submit" class="submit" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Greek poem..."
+              autofocus
+              required
+              autocomplete="off"
+              class="poem-input"
+              id="poem-input"
+            />
+            <input type="submit" class="submit" />
+          </form>
+          <div class="hint">i.e: love, wine or friendship</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
